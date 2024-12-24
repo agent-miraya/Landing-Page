@@ -8,12 +8,17 @@ export function CTA() {
         <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-500" />
         <h2 className="text-3xl font-bold mb-4">Ready to Build?</h2>
         <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-          Join the next generation of crypto marketing automation with secure, autonomous agents.
+          Explore the Miraya SDK and start building your own secure and trusted AI Agents.
         </p>
         <div className="flex justify-center gap-4">
-          <button className="px-8 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition hover:scale-105 transform duration-200">
+            <a
+            href="https://github.com/agent-miraya/Miraya-SDK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition hover:scale-105 transform duration-200"
+            >
             Start Building
-          </button>
+            </a>
           <a
             href="https://x.com/miraya7f"
             target="_blank"

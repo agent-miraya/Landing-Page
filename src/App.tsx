@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       <GradientBackground>
-        <Header />
+        {/* <Header /> */}
         <Hero />
-      </GradientBackground>
       <Features />
       <Steps />
       <CTA />
+      </GradientBackground>
     </div>
   );
 }
